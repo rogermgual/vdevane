@@ -1,3 +1,9 @@
+@font-face {
+    font-family: caviar_dreams;
+    src: url('../fonts/caviar_dreams/CaviarDreams.ttf');
+} 
+
+
 .body-secction{
     min-height: 90vh;
     display: flex;
@@ -8,6 +14,8 @@
     display: flex;
     flex-direction: row;
     margin-right: 10%;
+    font-family: caviar_dreams;
+    font-size: larger;
 }
 
 .top-bar{
@@ -30,11 +38,14 @@
 .menu-buttons{
     margin-left: 10%;
     margin-right: 10%;
+    font-family: caviar_dreams;
+    font-size: larger;
 }
 
 .redirect-to-content-section{
     display: flex;
     flex-direction: row;
+    margin-bottom: 10%;
 }
 .redirect-to-content-section-section{
     margin-left: 5%;
@@ -44,4 +55,28 @@
 .redirect-box-img{
     width: 400px;
     height: 200px;
+}
+
+.tittle-section{
+    display: flex;
+    flex-direction: column;;
+}
+.portrait-img{
+    width: 700px;
+    height: 400px;
+    position: sticky;
+    margin-left: 1%;
+    margin-bottom: 10%;
+}
+.portrait-section
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+.portrait-text{
+    margin-left: 10%;
+    margin-top: 10%;
+    font-family: caviar_dreams;
+    font-size: larger;      
 }
