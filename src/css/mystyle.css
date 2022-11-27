@@ -3,11 +3,71 @@
     src: url('../fonts/montserrat/Montserrat-Regular.otf');
 } 
 
-.body-secction{
-    min-height: 90vh;
-    display: flex;
-    flex-direction: column;
+/*Layout*/
+/*Page*/
+body{
+    background-color: ghostwhite !important;
 }
+
+/*Header*/
+.header-area{
+}
+.container{
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    z-index: 0;
+}
+.container{
+    z-index: 2;
+}
+.row{
+
+}
+.col-12{
+    background-color: bisque;
+
+}
+.main-nav{
+
+}
+
+.col-12{
+
+}
+.nav{
+    float: right;
+    display: flex;
+    height: 100%;
+    margin-top: 3%;
+}
+.nav-menu-buttons{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: montserrat;
+    font-size: larger;
+    color: chocolate;
+}
+.anchor-nav-menu-buttons{
+    width: 200px;
+}
+.nav-menu-logo{
+    float: left;
+    margin-top: 1%;
+    width: 100px;
+    height: 100px;
+}
+
+/*Banner*/
+.banner-portrait-img{
+    width: 400px;
+    height: 200px;
+}
+
+/*Section*/
+
+
+/*Footer*/
 .footer{
     margin-top: auto;
     display: flex;
@@ -15,72 +75,4 @@
     margin-right: 10%;
     font-family: montserrat;
     font-size: larger;
-}
-
-.top-bar{
-    display: flex;
-    flex-direction: row; 
-}
-.home-icon{
-    margin-left: 0%;
-    margin-right: 0%;
-}
-.home-icon-img{
-    width: 200px;
-    height: 100px;
-}
-.menu-top-bar{
-    display: flex;
-    flex-direction: row;
-    margin-right: 50%;
-    float: right;
-    padding: 20px;
-    border: 20px;
-    margin: 20px;
-}
-.menu-buttons{
-    margin-left: 10%;
-    margin-right: 10%;
-    font-family: montserrat;
-    font-size: larger;
-}
-
-.redirect-to-content-section{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 10%;
-}
-.redirect-to-content-section-section{
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.redirect-box-img{
-    width: 400px;
-    height: 200px;
-}
-
-.tittle-section{
-    display: flex;
-    flex-direction: column;;
-}
-.portrait-img{
-    width: 700px;
-    min-width: max-content;
-    height: 400px;
-    position: sticky;
-    margin-left: 1%;
-    margin-bottom: 10%;
-}
-.portrait-section
-{
-    display: flex;
-    flex-direction: row;
-    margin-top: 0%;
-}
-.portrait-text{
-    margin-left: 10%;
-    margin-top: 10%;
-    font-family: montserrat;
-    font-size: larger;      
 }
